@@ -2,8 +2,9 @@
 
 The goal of this fork is to add additional ability to use different aspect ratios/resolutions other than **1:1** or **512x512** in Dreambooth without having an issue with outputs.
 
-**Before continuing, run the `preprocess_images.py` script on your dataset if you are NOT using 1:1 or 512x512 images.**
+**Before continuing, run the `preprocess_images.py` script on your dataset if you are NOT using 1:1 or 512x512 images exclusively.**
 
+## Dreambooth Information
 This is an implementtaion of Google's [Dreambooth](https://arxiv.org/abs/2208.12242) with [Stable Diffusion](https://github.com/CompVis/stable-diffusion). The original Dreambooth is based on [Imagen](https://imagen.research.google/) text-to-image model. However, neither the model nor the pre-trained weights of Imagen is available. To enable people to fine-tune a text-to-image model with a few examples, I implemented the idea of Dreambooth on Stable diffusion.
 
 This code repository is based on that of [Textual Inversion](https://github.com/rinongal/textual_inversion). Note that Textual Inversion only optimizes word embedding, while dreambooth fine-tunes the whole diffusion model.
