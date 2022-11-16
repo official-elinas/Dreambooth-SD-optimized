@@ -1,5 +1,6 @@
 '''
 ---- Credit to jonny#1231 ----
+---- Modifications by Elinas#5898 ----
 Before running this script on your machine, enter the following command
 pip install pillow numpy
 '''
